@@ -1,0 +1,1 @@
+{"name":"supplier_lots","primary_key":"lot_id","required":{"lot_id":"string","supplier_id":"string","entry_date":"datetime","exit_date":"datetime","lot_size":"int"},"constraints":["exit_date >= entry_date","lot_size > 0"]}

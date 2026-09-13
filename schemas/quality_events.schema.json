@@ -1,0 +1,1 @@
+{"name":"quality_events","derived_from":"production_events","fields":["event_id","station_id","machine_id","defect_flag","out_of_spec_flag","failure_mechanism"],"constraints":["defect_flag in {0,1}","out_of_spec_flag in {0,1}"]}

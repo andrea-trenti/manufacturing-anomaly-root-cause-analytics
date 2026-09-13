@@ -1,0 +1,1 @@
+{"name":"sensor_telemetry","primary_key":"telemetry_id","required":{"telemetry_id":"string","machine_id":"string","timestamp":"datetime","vibration_mm_s":"float","motor_temp_c":"float","pressure_bar":"float"},"constraints":["telemetry_id unique","machine_id references machine master"]}

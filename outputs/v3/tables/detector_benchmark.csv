@@ -1,0 +1,7 @@
+detector,pr_auc,roc_auc,precision_at_0_25pct,recall_at_0_25pct,lift_at_0_25pct
+One-Class SVM,0.041,0.61,0.1301,0.016,8.2
+Isolation Forest,0.0475,0.774,0.1156,0.0143,7.28
+MCD/Mahalanobis,0.0442,0.76,0.121,0.0148,7.62
+LOF,0.0298,0.691,0.081,0.01,5.1
+Robust Z,0.0285,0.733,0.031,0.0038,1.95
+PCA residual,0.015,0.491,0.079,0.0097,4.98

@@ -1,0 +1,8 @@
+source,target,relation
+ST07 anomaly,process_z drift,observed_signal
+process_z drift,M07B,candidate_cause
+M07B,Adjusted OR 1.51,adjusted_evidence
+M07B,vehicle mix / shift / operator,alternative_explanations
+M07B,CAPA-001,action
+CAPA-001,ST07 verification,verification
+ST07 verification,Inconclusive causal grade,conclusion

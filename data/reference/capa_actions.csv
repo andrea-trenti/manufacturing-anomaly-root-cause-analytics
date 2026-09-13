@@ -1,0 +1,9 @@
+capa_id,station_id,effective_day,implementation_cost_eur,action
+CAPA-001,ST07,75,42000,Calibration interval reduction + shift-start verification
+CAPA-002,ST12,56,29000,Valve-manifold replacement + pressure alarm
+CAPA-003,ST18,66,17000,Supplier containment + lot traceability
+CAPA-004,ST23,104,40000,Condition-based tool replacement
+CAPA-005,ST20,211,18000,Pneumatic leak repair standard
+CAPA-006,ST09,226,12000,Sensor recalibration and drift monitor
+CAPA-007,ST24,236,15000,Variance containment and process reset
+CAPA-008,ST27,241,24000,Supplier-lot and tool-life joint containment

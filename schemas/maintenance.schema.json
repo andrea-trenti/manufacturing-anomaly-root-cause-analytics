@@ -1,0 +1,1 @@
+{"name":"maintenance","primary_key":"maintenance_id","required":{"maintenance_id":"string","machine_id":"string","timestamp":"datetime","maintenance_type":"string","duration_min":"float"},"constraints":["duration_min > 0","machine_id references machine master"]}

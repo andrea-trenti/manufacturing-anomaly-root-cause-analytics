@@ -1,0 +1,9 @@
+{
+  "cvar5_eur": -150116,
+  "interpretation": "positive median, material downside retained",
+  "median_payback_months": 15.5,
+  "npv_p50_eur": 62325,
+  "npv_p5_eur": -97369,
+  "npv_p95_eur": 318261,
+  "p_npv_positive": 0.7276
+}

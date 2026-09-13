@@ -1,0 +1,4 @@
+link,effect,p_value,status
+process_variance_to_defect_rate,0.0013,0.0028,Supported association
+process_variance_to_next_day_failure,0.94,0.0046,Opposite direction
+defect_rate_to_next_day_failure,1.01,0.59,Not supported

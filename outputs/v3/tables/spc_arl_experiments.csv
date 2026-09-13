@@ -1,0 +1,9 @@
+method,scenario,shift_or_factor,estimated_arl
+EWMA,in_control,0.0,554
+CUSUM,in_control,0.0,476
+EWMA,step_shift,1.0,18
+CUSUM,step_shift,1.0,15
+EWMA,slow_drift,0.5,31
+CUSUM,slow_drift,0.5,27
+EWMA,variance_change,1.7,62
+CUSUM,variance_change,1.7,71

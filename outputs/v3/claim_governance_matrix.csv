@@ -1,0 +1,9 @@
+claim,evidence,method,falsification_test,status
+Random split overstates PR-AUC by ~63.5%,temporal vs random probe,chronological split,future-regime test,Supported
+RCA Top-1 recovery ~96%,known-truth Monte Carlo,200 replications,null scenario,Supported
+95.5% of null cases remain inconclusive,null DGP experiment,300 null replications,negative controls,Supported
+ST07 CAPA has a clean causal effect,DiD,event study + placebo,placebo time/space,Not supported
+ST07 observed improvement is causal,counterfactual triangulation,synthetic control,pre-trend + donor falsification,Falsified
+CAPA NPV is positive with certainty,probabilistic economics,Monte Carlo,negative P5/CVaR tail,Falsified
+Process variance predicts next-day machine failure,joint quality-reliability,adjusted temporal model,alternative specification,Not supported
+Negative controls are root causes,RCA adjusted screen,BH-FDR,null scenario,Falsified

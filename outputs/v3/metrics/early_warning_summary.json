@@ -1,0 +1,10 @@
+{
+  "best_operating_point": "One-Class SVM",
+  "lift": 8.2,
+  "precision": 0.1301,
+  "random_inflation_pct": 63.5,
+  "random_pr_auc": 0.0527,
+  "recall": 0.016,
+  "review_budget": 0.0025,
+  "temporal_pr_auc": 0.0322
+}

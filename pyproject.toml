@@ -1,0 +1,14 @@
+[project]
+name = "manufacturing-anomaly-root-cause-analytics"
+version = "3.0.0"
+description = "Research-grade synthetic manufacturing quality, RCA and CAPA study"
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+parquet = ["pyarrow>=17.0"]
+dashboard = ["streamlit>=1.40"]
+all = ["pyarrow>=17.0", "streamlit>=1.40"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

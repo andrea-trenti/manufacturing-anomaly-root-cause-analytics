@@ -1,0 +1,23 @@
+{
+  "core_actual": {
+    "capa": "Inconclusive",
+    "cvar": -150116,
+    "events": 504000,
+    "failures": 14,
+    "inflation": 63.5,
+    "lift": 8.2,
+    "null_false": 0.045,
+    "p5": -97369,
+    "p50": 62325,
+    "p95": 318261,
+    "p_pos": 0.7276,
+    "p_space": 0.364,
+    "p_time": 0.6,
+    "rca_top1": 0.96
+  },
+  "data_contract_blocking": 0,
+  "edition": "FULL",
+  "issues": [],
+  "pass": true,
+  "stage_manifests": 10
+}

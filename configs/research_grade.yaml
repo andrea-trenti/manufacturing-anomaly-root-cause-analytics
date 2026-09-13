@@ -1,0 +1,40 @@
+release: v3.0.0
+seed: 42
+simulation:
+  days: 300
+  vehicles_per_day: 60
+  stations: 28
+  machines: 56
+  shifts: [A, B, C]
+  vehicle_models: [V1, V2, V3, V4]
+  start_date: '2026-01-01'
+  telemetry_rows: 300000
+validation:
+  expected_events: 504000
+  expected_failure_mechanisms: 14
+  review_budgets: [0.001, 0.0025, 0.005, 0.01]
+validated_results:
+  review_budget: 0.0025
+  best_detector: One-Class SVM
+  precision_at_budget: 0.1301
+  recall_at_budget: 0.0160
+  lift_at_budget: 8.20
+  temporal_pr_auc: 0.0322
+  random_pr_auc: 0.0527
+  random_inflation_pct: 63.5
+  rca_top1_recovery: 0.96
+  rca_top3_recall: 1.0
+  rca_mrr: 0.98
+  rca_ci_coverage: 0.975
+  null_false_rca_rate: 0.045
+  null_inconclusive_rate: 0.955
+  st07_did: -0.00248
+  placebo_time_p: 0.600
+  placebo_space_p: 0.364
+  capa_grade: Inconclusive
+  npv_p5_eur: -97369
+  npv_p50_eur: 62325
+  npv_p95_eur: 318261
+  p_npv_positive: 0.7276
+  cvar5_eur: -150116
+  median_payback_months: 15.5

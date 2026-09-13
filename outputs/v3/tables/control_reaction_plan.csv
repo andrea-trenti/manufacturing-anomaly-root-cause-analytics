@@ -1,0 +1,6 @@
+failure_type,signal,threshold,owner,containment,diagnostic_step,escalation,verification
+calibration_drift,EWMA/process_z,EWMA signal + M07B evidence,Manufacturing Engineering,contain affected units,verify gauge + calibration state,escalate after 2 consecutive signals,event-study + gauge verification
+supplier_batch_issue,lot defect rate,posterior risk > threshold,Supplier Quality,lot containment,trace lot genealogy,escalate supplier 8D,post-exit defect normalization
+microstop_cluster,downtime/microstop rate,CUSUM signal,Maintenance,inspect pneumatic circuit,pressure trend review,replace manifold if recurring,MTTR + microstop recurrence
+tool_wear,process_z + tool age,trend + maintenance state,Maintenance Engineering,planned tool swap,inspect wear state,shorten replacement threshold,tail cycle-time + defect variance
+variance_shift,process variance,variance alarm,Quality Engineering,hold suspect output,check setup/material/gauge,escalate if persistent,variance returns to reference band

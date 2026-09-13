@@ -1,0 +1,7 @@
+metric,value
+Top-1 accuracy,0.96
+Top-3 recall,1.0
+MRR,0.98
+95% CI coverage,0.975
+false-cause top1,0.04
+null false RCA declaration,0.045

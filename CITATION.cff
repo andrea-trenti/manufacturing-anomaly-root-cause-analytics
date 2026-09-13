@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: Manufacturing Anomaly Detection, Root Cause Analysis & Corrective Action System
+message: If you reuse the original code or synthetic study design, cite this repository.
+type: software
+version: 2.0.0
+date-released: 2026-09-12
+license: MIT

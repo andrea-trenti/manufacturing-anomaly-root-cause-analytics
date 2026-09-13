@@ -1,0 +1,57 @@
+failure_mechanism,method,recall,precision,median_delay_days,p90_delay_days
+calibration_drift,Isolation Forest,0.16,0.08,0.0,2.0
+calibration_drift,EWMA,0.12,0.08,0.0,2.0
+calibration_drift,CUSUM,0.11,0.08,0.0,2.0
+calibration_drift,MCD,0.14,0.08,0.0,2.0
+supplier_batch_issue,Isolation Forest,0.195,0.125,1.0,3.0
+supplier_batch_issue,EWMA,0.155,0.125,1.0,3.0
+supplier_batch_issue,CUSUM,0.14500000000000002,0.125,1.0,3.0
+supplier_batch_issue,MCD,0.17500000000000002,0.125,1.0,3.0
+microstop_cluster,Isolation Forest,0.23,0.16999999999999998,2.0,4.0
+microstop_cluster,EWMA,0.19,0.16999999999999998,2.0,4.0
+microstop_cluster,CUSUM,0.18,0.16999999999999998,2.0,4.0
+microstop_cluster,MCD,0.21000000000000002,0.16999999999999998,2.0,4.0
+tool_wear,Isolation Forest,0.265,0.21500000000000002,3.0,5.0
+tool_wear,EWMA,0.225,0.21500000000000002,3.0,5.0
+tool_wear,CUSUM,0.21500000000000002,0.21500000000000002,3.0,5.0
+tool_wear,MCD,0.24500000000000002,0.21500000000000002,3.0,5.0
+thermal_excursion,Isolation Forest,0.30000000000000004,0.08,0.0,6.0
+thermal_excursion,EWMA,0.26,0.08,0.0,6.0
+thermal_excursion,CUSUM,0.25,0.08,0.0,6.0
+thermal_excursion,MCD,0.28,0.08,0.0,6.0
+sensor_glitch,Isolation Forest,0.16,0.125,1.0,7.0
+sensor_glitch,EWMA,0.12,0.125,1.0,7.0
+sensor_glitch,CUSUM,0.11,0.125,1.0,7.0
+sensor_glitch,MCD,0.14,0.125,1.0,7.0
+pneumatic_leakage,Isolation Forest,0.195,0.16999999999999998,2.0,2.0
+pneumatic_leakage,EWMA,0.155,0.16999999999999998,2.0,2.0
+pneumatic_leakage,CUSUM,0.14500000000000002,0.16999999999999998,2.0,2.0
+pneumatic_leakage,MCD,0.17500000000000002,0.16999999999999998,2.0,2.0
+sensor_offset_drift,Isolation Forest,0.23,0.21500000000000002,3.0,3.0
+sensor_offset_drift,EWMA,0.19,0.21500000000000002,3.0,3.0
+sensor_offset_drift,CUSUM,0.18,0.21500000000000002,3.0,3.0
+sensor_offset_drift,MCD,0.21000000000000002,0.21500000000000002,3.0,3.0
+variance_shift,Isolation Forest,0.14575000000000002,0.08,0.0,4.0
+variance_shift,EWMA,0.225,0.08,0.0,4.0
+variance_shift,CUSUM,0.21500000000000002,0.08,0.0,4.0
+variance_shift,MCD,0.24500000000000002,0.08,0.0,4.0
+weak_slow_drift,Isolation Forest,0.16500000000000004,0.125,1.0,5.0
+weak_slow_drift,EWMA,0.26,0.125,1.0,5.0
+weak_slow_drift,CUSUM,0.25,0.125,1.0,5.0
+weak_slow_drift,MCD,0.28,0.125,1.0,5.0
+supplier_lot_x_wear,Isolation Forest,0.16,0.16999999999999998,2.0,6.0
+supplier_lot_x_wear,EWMA,0.12,0.16999999999999998,2.0,6.0
+supplier_lot_x_wear,CUSUM,0.11,0.16999999999999998,2.0,6.0
+supplier_lot_x_wear,MCD,0.14,0.16999999999999998,2.0,6.0
+short_intense_spike,Isolation Forest,0.195,0.21500000000000002,3.0,7.0
+short_intense_spike,EWMA,0.155,0.21500000000000002,3.0,7.0
+short_intense_spike,CUSUM,0.14500000000000002,0.21500000000000002,3.0,7.0
+short_intense_spike,MCD,0.17500000000000002,0.21500000000000002,3.0,7.0
+cyclical_quality_issue,Isolation Forest,0.23,0.08,0.0,2.0
+cyclical_quality_issue,EWMA,0.19,0.08,0.0,2.0
+cyclical_quality_issue,CUSUM,0.18,0.08,0.0,2.0
+cyclical_quality_issue,MCD,0.21000000000000002,0.08,0.0,2.0
+machine_degradation,Isolation Forest,0.265,0.125,1.0,3.0
+machine_degradation,EWMA,0.225,0.125,1.0,3.0
+machine_degradation,CUSUM,0.21500000000000002,0.125,1.0,3.0
+machine_degradation,MCD,0.24500000000000002,0.125,1.0,3.0

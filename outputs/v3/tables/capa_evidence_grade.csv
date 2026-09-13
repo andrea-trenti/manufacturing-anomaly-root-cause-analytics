@@ -1,0 +1,5 @@
+capa_id,station_id,did_effect,placebo_time_p,placebo_space_p,evidence_grade,interpretation
+CAPA-001,ST07,-0.00248,0.6,0.364,Inconclusive,Observed improvement != identified causal effect
+CAPA-002,ST12,-0.0012,0.31,0.27,Moderate,mechanism-aligned but limited donor support
+CAPA-003,ST18,-0.0018,0.22,0.18,Moderate,supplier excursion resolves after containment
+CAPA-004,ST23,0.0003,0.71,0.55,Weak,economically negative/uncertain

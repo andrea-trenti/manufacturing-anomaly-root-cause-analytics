@@ -1,0 +1,11 @@
+check,passed,detail
+event_count,True,504000
+unique_event_id,True,504000
+stations,True,28
+machines,True,56
+nonnegative_cycle,True,47.784
+nonnegative_downtime,True,0.0
+timestamp_not_future,True,2026-10-28 04:48:00
+failure_catalog,True,14
+no_missing_core,True,core fields
+known_shifts,True,"['A', 'B', 'C']"

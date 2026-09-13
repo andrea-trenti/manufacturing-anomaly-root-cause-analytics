@@ -1,0 +1,1 @@
+{"name":"capa","primary_key":"capa_id","required":{"capa_id":"string","station_id":"string","effective_day":"int","implementation_cost_eur":"float","action":"string"},"constraints":["effective_day >= 0","implementation_cost_eur >= 0"]}

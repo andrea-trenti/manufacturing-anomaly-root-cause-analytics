@@ -1,0 +1,12 @@
+{
+  "ci95_coverage": 0.975,
+  "effect_rmse_log_odds": 0.338,
+  "false_cause_top1_rate": 0.04,
+  "mrr": 0.98,
+  "null_false_rca_declaration_rate": 0.045,
+  "null_inconclusive_rate": 0.955,
+  "null_replications": 300,
+  "replications": 200,
+  "top1_accuracy": 0.96,
+  "top3_recall": 1.0
+}
